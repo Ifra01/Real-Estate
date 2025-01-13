@@ -8,28 +8,62 @@
     src: url(Poppins/Poppins-Regular.ttf);
 }
 
-@media screen and (min-width:0px) and (max-width:620px) {
+
+@media screen and (min-width:0px) and (max-width:576px) {
     .mazeed2 {
-        font-size: 35px !important;
-        line-height: 39px !important;
+        font-size: 50px !important;
+        line-height: 54px !important;
     }
-    
-    .mazeed3{
-        font-size: 25px !important;
-        line-height: 29px !important;
+
+    .mazeed3 {
+        font-size: 27px !important;
+        line-height: 31px !important;
     }
+
     .mazeed {
-        font-size: 8px !important;
-        line-height: 11px !important;
+        font-size: 15px !important;
+        line-height: 19px !important;
     }
 
-    .font{
-        font-size: xx-small !important;
+    .font {
+        font-size: small !important;
     }
 
-    .size{
+    .h-w{
+        height: 35px !important;
+        font-size: 14.5px !important;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:620px) {
+    .mazeed2 {
+        font-size: 37px !important;
+        line-height: 41px !important;
+    }
+
+    .mazeed3 {
+        font-size: 27px !important;
+        line-height: 31px !important;
+    }
+
+    .mazeed {
+        font-size: 10px !important;
+        line-height: 14px !important;
+    }
+
+    .font {
+        font-size: x-small !important;
+    }
+
+    .size {
         height: 50px !important;
         width: 80px !important;
+    }
+
+    .h-w{
+        
+        height: 19px !important;
+        font-size: 14px !important;
     }
 }
 
@@ -38,20 +72,22 @@
         font-size: 42px !important;
         line-height: 46px !important;
     }
-    
-    .mazeed3{
+
+    .mazeed3 {
         font-size: 32px !important;
         line-height: 36px !important;
     }
+
     .mazeed {
-        font-size: 11px !important;
-        line-height: 15px !important;
+        font-size: 11.5px !important;
+        line-height: 18px !important;
     }
-    .font{
+
+    .font {
         font-size: x-small !important;
     }
 
-    .size{
+    .size {
         height: 58px !important;
         width: 90px !important;
     }
@@ -62,18 +98,60 @@
         font-size: 50px !important;
         line-height: 54px !important;
     }
-    
-    .mazeed3{
+
+    .mazeed3 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+    }
+
+    .mazeed {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .font {
+        font-size: small !important;
+    }
+
+    .h-w{
+        width: 65% !important;
+        height: 35px !important;
+        font-size: 14.5px !important;
+    }
+
+    .customize{
+        height: 50px !important;
+       width: 45% !important;
+        border-radius: 75px !important;
+    }
+
+}
+
+@media screen and (min-width: 957px) and (max-width: 1400px) {
+    .mazeed3 {
         font-size: 38px !important;
         line-height: 42px !important;
     }
-    .mazeed {
-        font-size: 15px !important;
-        line-height: 19px !important;
+}
+
+@media screen and (min-width:1400px) and (max-width:1900px) {
+    .mazeed2 {
+        font-size: 76px !important;
+        line-height: 80px !important;
     }
 
-    .font{
-        font-size: small !important;
+    .mazeed3 {
+        font-size: 42px !important;
+        line-height: 46px !important;
+    }
+
+    .mazeed {
+        font-size: 25px !important;
+        line-height: 39px !important;
+    }
+
+    .font {
+        font-size: x-large !important;
     }
 }
 
@@ -90,19 +168,21 @@
     background-color: #FEFEFF;
 }
 
-.mazeed3{
+.mazeed3 {
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
 }
-.font{
+
+.font {
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
     position: relative;
     top: 10px !important;
 }
-.wrap{
+
+.wrap {
     word-wrap: wrap;
 }
 
@@ -111,17 +191,39 @@
 }
 
 .bgimage {
-    width: 100%  !important;
-    background-image: url(vuesax/Rectangle\ 14.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    margin-top: 20px;
+    background: linear-gradient(to right, #C1DEE8, #FBD9B9);
+    margin-top: 20px !important;
+}
+
+.gradient {
+    background: linear-gradient(to bottom right, #C1DEE8, #FFFFFF, #FBD9B9);
+    border-radius: 8px !important;
 }
 
 .bg {
     background-color: #FEFEFF;
     border-radius: 50px;
+}
+
+.h-w {
+    font-family: poppins;
+    width: 50% !important;
+    height: 60px !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.h-bw {
+    font-family: poppins;
+    border: none;
+    position: relative;
+    right: 20px !important;
+    top: 1px !important;
+    width: 25% !important;
+    height: 58px !important;
+    border-radius: 50px !important;
+    color: white;
+    background-color: black;
 }
 
 li {
@@ -152,4 +254,10 @@ a {
     background-color: #FAFAFA;
     border-radius: 70px !important;
     margin-top: 20px !important;
+}
+
+.customize{
+    height: 50px !important;
+    width: 30% !important;
+    border-radius: 75px !important;
 }
